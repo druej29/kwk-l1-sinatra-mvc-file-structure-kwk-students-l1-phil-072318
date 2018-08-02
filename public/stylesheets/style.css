@@ -1,0 +1,59 @@
+ body 
+ {
+  background-image: url("http://www.disunplugged.com/wp-content/uploads/2011/01/Walt-Disney-Theatre-10.jpg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+ 
+}
+
+h2 {
+ text-align: center;
+ color:#FA8072;
+ font-size: 50px;
+  
+ 
+ 
+}
+
+h3 {
+ text-align: center;
+ color:#B0E0E6;
+ font-size: 30px ;
+}
+
+div{
+ border:2px  white;
+ color:#0099ff;
+ font-size:20px;
+ background-color: white;
+ text-align:center;
+ width:700px;
+  margin-left:350px;
+  border-radius:100px;
+  padding-bottom:50px;
+  padding-top:15px;
+  margin-top: 25px;
+}
+button{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left:600px;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transfom: translateY(4px);
+  }
+}

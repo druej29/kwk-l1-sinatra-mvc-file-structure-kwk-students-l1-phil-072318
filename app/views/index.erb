@@ -1,11 +1,156 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sinatra MVC</title>
+    <link rel=”stylesheet” type=”text/css” href=”style.css” />
+    <title><h1>Movie Mood</h1></title>
+    <h2>Welcome to Movie Mood</h2>
   </head>
-
-  <body>
-    <h1>Index</h1>
-    <p> I love programming </p>
+<body>
+  <form method=POST>
+  <div> <!--First question-->
+    <h3>How do you currently feel?</h3>
+    <p></p>
+    <img src= "http://cdn.playbuzz.com/cdn/52255f87-8d7c-4ced-b414-4efb9da50776/d7b877a5-bd9d-4a75-bdff-78d7ec865af7.jpg" width=200 >
+    <p></p>
+        <input type="checkbox" name="question1" value="wired">Wired
+    <p></p>
+        <input type="checkbox" name="question1" value="inyourbag">In your bag
+    <p></p>
+        <input type="checkbox" name="question1" value="brave">Brave
+    <p></p>
+        <input type="checkbox" name="question1" value="humor">Humorous
+    <p></p>
+        <input type="checkbox" name="question1" value="childish">Childish
+  </div>
+    <!--Second Question-->
+    <div>
+       <h3>What's your favorite candy??</h3>
+      <p></p>
+      <img src="https://images.fineartamerica.com/images-medium-large-5/1-boxes-of-candy-jeff-lowe.jpg" width=200>
+    <p></p>
+        <input type="checkbox" name="question2" value="licorice">Licorice
+    <p></p>
+        <input type="checkbox" name="question2" value="kitkat">Kit Kat
+    <p></p>
+        <input type="checkbox" name="question2" value="reesecup">Reese Cup
+    <p></p>
+        <input type="checkbox" name="question2" value="sourpatchkid">Sour Patch Kids
+    <p></p>
+        <input type="checkbox" name="question2" value="swedish">Swedish Fish
+  </div>
+  <!--Third Question-->
+   <div>
+       <h3>What animal do you like?</h3>
+    <p></p>
+     <img src="https://comps.canstockphoto.com/animals-collage-picture_csp19466474.jpg" height=200 width=200>
+     <p></p>
+        <input type="checkbox" name="question3" value="panther">Panther
+    <p></p>
+        <input type="checkbox" name="question3" value="owl">Owl
+    <p></p>
+        <input type="checkbox" name="question3" value="dinosaur">Dinosaur
+    <p></p>
+        <input type="checkbox" name="question3" value="monkey">Monkey
+    <p></p>
+        <input type="checkbox" name="question3" value="hyena">Hyena
+    </div>
+    <!--Fourth Question-->
+    <div>
+       <h3>Where's your ideal destination?</h3>
+    <p></p>
+      <img src="http://nishsays.com/wp-content/uploads/2017/01/Honeymoon-Destinations1.jpg" width=200 height=200>
+      <p></p>
+        <input type="checkbox" name="question4" value="newyork">New York
+    <p></p>
+        <input type="checkbox" name="question4" value="paris">Paris
+    <p></p>
+        <input type="checkbox" name="question4" value="thewoods">The Woods
+    <p></p>
+        <input type="checkbox" name="question4" value="circus">Circus
+    <p></p>
+        <input type="checkbox" name="question4" value="home">Stay at Home
+    </div>
+    <!--Fifth Question-->
+    <div>
+       <h3>What's your favorite sport to play?</h3>
+    <p></p>
+    <img src="http://runsickcattle.com/data/out/183/1107235.jpg"width=200>
+      <p></p>
+        <input type="checkbox" name="question5" value="hockey">Hockey
+    <p></p>
+        <input type="checkbox" name="question5" value="baseball">Baseball
+    <p></p>
+        <input type="checkbox" name="question5" value="football">Football
+    <p></p>
+        <input type="checkbox" name="question5" value="polo">Polo
+    <p></p>
+        <input type="checkbox" name="question5" value="golf">Golf
+    </div>
+    <!--Sixth Question-->
+    <div>
+       <h3>What's your favorite color?</h3>
+      <p></p>
+      <img src="https://images.fineartamerica.com/images-medium-large/collage-color-study-sketch-michelle-calkins.jpg" width=200 height=200>
+    <p></p>
+    <input type="checkbox" name="question6" value="purple">Purple
+    <p></p>
+    <input type="checkbox" name="question6" value="red">Red
+    <p></p>
+    <input type="checkbox" name="question6" value="black">Black
+    <p></p>
+    <input type="checkbox" name="question6" value="green">Green
+    <p></p>
+    <input type="checkbox" name="question6" value="orange">Orange
+    </div>
+    <div>
+       <h3>What's your dream car?</h3>
+      <p></p>
+      <img src="https://www.zeroto60times.com/wp-content/uploads/2014/05/fast-fastest-quick-quickest-cars-stats-0-60-zero-to-60-times.jpg" width=200 height=200>
+    <p></p>
+    <input type="checkbox" name="question7" value="lamborghini">Lamborghini
+    <p></p>
+    <input type="checkbox" name="question7" value="bmw">BMW
+    <p></p>
+    <input type="checkbox" name="question7" value="monstertruck">Monster Truck
+    <p></p>
+    <input type="checkbox" name="question7" value="beetle">Beetle
+    <p></p>
+    <input type="checkbox" name="question7" value="minivan">Mini-Van
+    </div>
+    <!--Eighth Question-->
+    <div>
+       <h3>What type of shoes do you like to wear?</h3>
+      <p></p>
+      <img src="https://cdn.unifiedcommerce.com/content/product/large/4895145412612.jpg" width=250>
+    <p></p>
+    <input type="checkbox" name="question8" value="boots">Boots
+    <p></p>
+    <input type="checkbox" name="question8" value="highheels">High Heels
+    <p></p>
+    <input type="checkbox" name="question8" value="loafers">Loafers
+    <p></p>
+    <input type="checkbox" name="question8" value="jazzshoes">Jazz Shoes
+    <p></p>
+    <input type="checkbox" name="question8" value="sneakers">Sneakers
+    </div>
+    <div>
+       <h3>What Type of Music do You Like?</h3>
+      <p></p>
+      <img src="https://image.slidesharecdn.com/musicmagazinecollagemoodboard-140107054807-phpapp02/95/music-magazine-collage-moodboard-1-638.jpg?cb=1389073725" width=200>
+    <p></p>
+    <input type="checkbox" name="question8" value="a">Rock & Roll
+    <p></p>
+    <input type="checkbox" name="question8" value="b">Jazz
+    <p></p>
+    <input type="checkbox" name="question8" value="c">Hard Core Punk
+    <p></p>
+    <input type="checkbox" name="question8" value="d">Asian Underground
+    <p></p>
+    <input type="checkbox" name="question8" value="e">Pop
+    </div>
+    <p></p>
+    </form>
+  <button type="submit" form="form1" value="Submit">See Your Results!</button>
+   
   </body>
 </html>
